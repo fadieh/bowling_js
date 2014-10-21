@@ -16,8 +16,8 @@
 }
 
 #bowlingball {
-	height: 148.5px;
-	width: 148.5px;
+	height: 74.25px;
+	width: 74.25px;
 	position: fixed;
 	bottom: 10;
 	left: 0;
@@ -25,48 +25,93 @@
 }
 
 #bowlingpin1 {
-	width: 111px;
-	height: 240.9px;
+	width: 55.5px;
+	height: 120.45px;
 	position: fixed;
 	bottom: 10;
-	right: 0;
-	z-index: 2;
+	right: 90;
+	z-index: 10;
 }
 
 #bowlingpin2 {
-	width: 111px;
-	height: 240.9px;
+	width: 55.5px;
+	height: 120.45px;
 	position: fixed;
 	bottom: 10;
-	right: 50;
-	z-index: 3;
+	right: 60;
+	z-index: 9;
 }
 
 #bowlingpin3 {
-	width: 111px;
-	height: 240.9px;
+	width: 55.5px;
+	height: 120.45px;
 	position: fixed;
 	bottom: 10;
-	right: 100;
-	z-index: 4;
+	right: 60;
+	z-index: 9;
 }
 
 #bowlingpin4 {
-	width: 111px;
-	height: 240.9px;
+	width: 55.5px;
+	height: 120.45px;
 	position: fixed;
 	bottom: 10;
-	right: 150;
-	z-index: 5;
+	right: 30;
+	z-index: 8;
 }
 
 #bowlingpin5 {
-	width: 111px;
-	height: 240.9px;
+	width: 55.5px;
+	height: 120.45px;
 	position: fixed;
 	bottom: 10;
-	right: 200;
-	z-index: 6;
+	right: 30;
+	z-index: 8;
+}
+
+#bowlingpin6 {
+	width: 55.5px;
+	height: 120.45px;
+	position: fixed;
+	bottom: 10;
+	right: 30;
+	z-index: 8;
+}
+
+#bowlingpin7 {
+	width: 55.5px;
+	height: 120.45px;
+	position: fixed;
+	bottom: 10;
+	right: 0;
+	z-index: 7;
+}
+
+#bowlingpin8 {
+	width: 55.5px;
+	height: 120.45px;
+	position: fixed;
+	bottom: 10;
+	right: 0;
+	z-index: 7;
+}
+
+#bowlingpin9 {
+	width: 55.5px;
+	height: 120.45px;
+	position: fixed;
+	bottom: 10;
+	right: 0;
+	z-index: 7;
+}
+
+#bowlingpin10 {
+	width: 55.5px;
+	height: 120.45px;
+	position: fixed;
+	bottom: 10;
+	right: 0;
+	z-index: 7;
 }
 
 #lane {
