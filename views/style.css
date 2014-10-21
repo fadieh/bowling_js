@@ -23,7 +23,7 @@
 /**/
 
 #scoreboard {
-	height: 200px;
+	height: 76px;
 	position: fixed;
 	top: 150px;
 	margin-left: auto;
@@ -33,7 +33,7 @@
 
 #totalScore {
 	font-family: 'Press Start 2P', cursive;
-	color: #FF4040;
+	color: #FF1919;
 	text-shadow: 2px 2px white;
 	width: 25%;
 	text-align: center;
@@ -88,6 +88,7 @@
 	position: fixed;
 	bottom: 18px;
 	right: 150px;
+	bottom: -50px;
 	text-shadow: 2px 2px white;
 }
 
