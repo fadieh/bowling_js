@@ -21,8 +21,72 @@
 	color:#FF4040;
 	position: fixed;
 	bottom: 15px;
-	right: 55px;
+	right: 50px;
 	text-shadow: 2px 2px white;
+}
+
+#message {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	color: #FF4040;
+	position: fixed;
+	bottom: 18px;
+	right: 150px;
+	text-shadow: 2px 2px white;
+}
+
+#totalScore {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	position: fixed;
+	top: 200px;
+	text-shadow: 2px 2px white;
+	width: 100%;
+	text-align: center;
+}
+
+#currentFrame {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	position: fixed;
+	top: 300px;
+	text-shadow: 2px 2px white;
+	width: 100%;
+	text-align: center;
+}
+
+#remainingPins {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	position: fixed;
+	top: 400px;
+	text-shadow: 2px 2px white;
+	width: 100%;
+	text-align: center;
+}
+
+#remainingPins h5 {
+	font-size: 18px;
+}
+
+#remainingPins h3 {
+	font-size: 30px;
+}
+
+#currentFrame h5 {
+	font-size: 18px;
+}
+
+#currentFrame h3 {
+	font-size: 30px;
+}
+
+#totalScore h5 {
+		font-size: 18px;
+}
+
+#totalScore h3 {
+	font-size: 30px;
 }
 
 #bowlingball {
