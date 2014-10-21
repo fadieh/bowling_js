@@ -4,13 +4,13 @@
 }
 
 #title {
-	color: rgb(90,159,216);
+	color: white;
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-weight: bold;
 	font-size: 48px;
 	font-weight: 400;
-	text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+	text-shadow: -4px 0 rgb(90,159,216), 0 4px rgb(90,159,216), 4px 0 rgb(90,159,216), 0 -4px rgb(90,159,216);
 	top: 30px;
 	position: relative;
 }
@@ -21,6 +21,7 @@
 	position: fixed;
 	bottom: 10;
 	left: 0;
+	z-index: 7;
 }
 
 #bowlingpin1 {
@@ -29,6 +30,7 @@
 	position: fixed;
 	bottom: 10;
 	right: 0;
+	z-index: 2;
 }
 
 #bowlingpin2 {
@@ -37,6 +39,7 @@
 	position: fixed;
 	bottom: 10;
 	right: 50;
+	z-index: 3;
 }
 
 #bowlingpin3 {
@@ -45,6 +48,7 @@
 	position: fixed;
 	bottom: 10;
 	right: 100;
+	z-index: 4;
 }
 
 #bowlingpin4 {
@@ -53,6 +57,7 @@
 	position: fixed;
 	bottom: 10;
 	right: 150;
+	z-index: 5;
 }
 
 #bowlingpin5 {
@@ -61,6 +66,7 @@
 	position: fixed;
 	bottom: 10;
 	right: 200;
+	z-index: 6;
 }
 
 #lane {
