@@ -15,6 +15,62 @@
 	position: relative;
 }
 
+/**/
+/**/
+/* EVERYTHING IN THE SCORE BOARD */
+/* IS BELOW                      */
+/**/
+/**/
+
+#scoreboard {
+	height: 200px;
+	position: fixed;
+	top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#totalScore {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	text-shadow: 2px 2px white;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+  	float: left;
+}
+
+#currentFrame {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	text-shadow: 2px 2px white;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+  	float: left;
+}
+
+#currentRoll {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	text-shadow: 2px 2px white;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+  	float: left;
+}
+
+#remainingPins {
+	font-family: 'Press Start 2P', cursive;
+	color: #FF4040;
+	text-shadow: 2px 2px white;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+  	float: left;
+}
+
 #score {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 30px;
@@ -33,46 +89,6 @@
 	bottom: 18px;
 	right: 150px;
 	text-shadow: 2px 2px white;
-}
-
-#totalScore {
-	font-family: 'Press Start 2P', cursive;
-	color: #FF4040;
-	position: fixed;
-	top: 100px;
-	text-shadow: 2px 2px white;
-	width: 100%;
-	text-align: center;
-}
-
-#currentFrame {
-	font-family: 'Press Start 2P', cursive;
-	color: #FF4040;
-	position: fixed;
-	top: 200px;
-	text-shadow: 2px 2px white;
-	width: 100%;
-	text-align: center;
-}
-
-#remainingPins {
-	font-family: 'Press Start 2P', cursive;
-	color: #FF4040;
-	position: fixed;
-	top: 300px;
-	text-shadow: 2px 2px white;
-	width: 100%;
-	text-align: center;
-}
-
-#currentRoll {
-	font-family: 'Press Start 2P', cursive;
-	color: #FF4040;
-	position: fixed;
-	top: 400px;
-	text-shadow: 2px 2px white;
-	width: 100%;
-	text-align: center;
 }
 
 #currentRoll h5 {
